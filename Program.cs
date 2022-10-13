@@ -28,6 +28,6 @@ while (!int.TryParse(Console.ReadLine(), out b2))
 {
 	Console.WriteLine("Не верный ввод. Повторите");
 }
-double x = (double)-(b2 - b1) / (k2 - k1);
+double x = (double)(b2 - b1) / (k1 - k2);
 double y = k1 * x + b1;
 Console.WriteLine($"({x}; {y})");
